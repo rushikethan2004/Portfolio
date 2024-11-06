@@ -1,0 +1,192 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #F1F8E8; /* Light off-white */
+    color: #333;
+    font-size: 16px;
+}
+
+/* Header */
+header {
+    background-color: #55AD9B; /* Deep teal */
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+header nav {
+    text-align: center;
+}
+
+header nav a {
+    color: white;
+    margin: 0 20px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+header nav a:hover {
+    color: #D8EFD3; /* Light pastel green on hover */
+}
+
+/* Home Section */
+#home {
+    padding-top: 80px; /* Offset header */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #F1F8E8;
+}
+
+.home-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    max-width: 1000px;
+    margin: 0 20px;
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #55AD9B;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.home-info {
+    max-width: 600px;
+    text-align: center;
+}
+
+.home-info h1 {
+    font-size: 36px;
+    color: #55AD9B;
+    margin-bottom: 10px;
+}
+
+.home-info .title {
+    font-size: 20px;
+    font-weight: 500;
+    color: #7f8c8d;
+    margin-bottom: 20px;
+}
+
+.home-info .intro {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.home-info .about-me {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.cta-btn {
+    display: inline-block;
+    background-color: #95D2B3; /* Soft mint green */
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+    background-color: #55AD9B; /* Deep teal on hover */
+}
+
+/* Experience Section */
+.experience {
+    background-color: #95D2B3; /* Soft mint green */
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.experience h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.experience-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.experience-item {
+    max-width: 400px;
+    margin: 20px;
+    background-color: #F1F8E8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.experience-item h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.experience-item p {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Skills Section */
+.skills {
+    padding: 60px 20px;
+    background-color: #D8EFD3; /* Light pastel green */
+    text-align: center;
+}
+
+.skills h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills ul li {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+.footer {
+    background-color: #55AD9B; /* Deep teal footer */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.footer p {
+    font-size: 14px;
+}
